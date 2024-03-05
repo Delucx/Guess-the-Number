@@ -1,0 +1,37 @@
+.desktop {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.desktop .overlap-group-wrapper {
+  background-color: #ffffff;
+  width: auto;
+  height: auto;
+}
+
+.desktop .overlap-group {
+  position: relative;
+  top: 345px;
+  left: 343px;
+}
+
+.desktop .figma-to-lottie {
+  position: absolute;
+  width: 355px;
+  height: 252px;
+  top: 134px;
+  left: 0;
+  object-fit: cover;
+}
+
+.desktop .https-lottiefiles {
+  position: absolute;
+  width: 237px;
+  height: 237px;
+  top: 0;
+  left: 59px;
+  object-fit: cover;
+}

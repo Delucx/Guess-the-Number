@@ -1,0 +1,65 @@
+<html>
+
+<head>
+    <title>Number Game</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style3.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="title">
+            <h1>Welcome to the Number Guessing Game!</h1>
+        </div>
+        <div class="counterContainer">
+            <div class="guessCount1">
+                <p>Number of guesses</p>
+                <div class="guessesCount" id="guessesCount"></div>
+            </div>
+            <div class="guessCount2">
+                <p>Guessed Numbers</p>
+                <div class="guessedNumber" id="guessedNumber"></div>
+            </div>
+        </div>
+
+        <div class="pDiff">
+            <p>Choose Difficulty</p>
+        </div>
+        <div class="difficulty">
+            <button class="easy" id="easy">Easy</button>
+            <button class="normal" id="normal">Normal</button>
+            <button class="hard" id="hard">HARD</button>
+            <button class="extreme" id="extreme">EXTREME</button>
+        </div>
+
+        <div class="timerDisplay" id="timerDisplay"></div>
+        <div class="imContainer">
+            <div class="inputContainer">
+                <input type="text" class="guessNumber" id="guessNumber">
+            </div>
+            <div class="message">
+                <p id="message"></p>
+            </div>
+        </div>
+        <div class="buttonContainer">
+            <div class="gameButton">
+                <button class="checkNumber" id="checkNumber">Submit Guess</button>
+                <button class="tryAgain" id="tryAgain">Try Again</button>
+            </div>
+            <div>
+                <button class="resetGame" id="resetGame">Reset Game</button>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="index.js"></script>
+</body>
+
+</html>

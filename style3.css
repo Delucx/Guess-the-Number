@@ -1,0 +1,249 @@
+body {
+    font-family: 'Itim', Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.counterContainer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.title {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.guessCount1 {
+    text-align: center;
+    font-size: 30px;
+}
+
+.guessCount2 {
+    text-align: center;
+    font-size: 30px;
+}
+
+.pDiff {
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.difficulty {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.easy {
+    padding: 10px 20px;
+    background: #00600e;
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Itim', Arial, Helvetica, sans-serif;
+    border: none;
+    cursor: pointer;
+    border-radius: 50px;
+    width: 20%;
+}
+
+.easy:hover {
+    scale: 1.1;
+    background: #019212;
+}
+
+.normal {
+    padding: 10px 20px;
+    background: #565900;
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Itim', Arial, Helvetica, sans-serif;
+    border: none;
+    cursor: pointer;
+    border-radius: 50px;
+    width: 20%;
+}
+
+.normal:hover {
+    scale: 1.1;
+    background: #808001;
+}
+
+.hard {
+    padding: 10px 20px;
+    background: #5b2f00;
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Itim', Arial, Helvetica, sans-serif;
+    border: none;
+    cursor: pointer;
+    border-radius: 50px;
+    width: 20%;
+}
+
+.hard:hover {
+    scale: 1.1;
+    background: #925a00;
+}
+
+.extreme {
+    padding: 10px 20px;
+    background: #5f0000;
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Itim', Arial, Helvetica, sans-serif;
+    border: none;
+    cursor: pointer;
+    border-radius: 50px;
+    width: 20%;
+}
+
+.extreme:hover {
+    scale: 1.1;
+    background: #920000;
+}
+
+.timerDisplay {
+    text-align: center;
+    font-size: 100px;
+    margin-bottom: 20px;
+}
+
+.container h1 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.container input[type="text"] {
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.buttonContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.gameButton {
+    display: flex;
+}
+
+.checkNumber {
+    padding: 10px 20px;
+    background: #555555;
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Itim', Arial, Helvetica, sans-serif;
+    border: none;
+    cursor: pointer;
+    border-radius: 50px;
+    margin: 20px;
+}
+
+.checkNumber:hover {
+    scale: 1.1;
+    background: #777777;
+}
+
+.tryAgain {
+    padding: 10px 20px;
+    background: #555555;
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Itim', Arial, Helvetica, sans-serif;
+    border: none;
+    cursor: pointer;
+    border-radius: 50px;
+    margin: 20px;
+}
+
+.tryAgain:hover {
+    scale: 1.1;
+    background: #777777;
+}
+
+.resetGame {
+    padding: 10px 20px;
+    background: #630000;
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Itim', Arial, Helvetica, sans-serif;
+    border: none;
+    cursor: pointer;
+    border-radius: 50px;
+    margin: 50px;
+}
+
+.resetGame:hover {
+    scale: 1.1;
+    background: red;
+}
+
+.container button {
+    padding: 10px 20px;
+    margin-bottom: 20px;
+}
+
+.imContainer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.inputContainer {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    width: 40%;
+}
+
+.guessNumber {
+    padding: 20px 20px;
+    background: #555555;
+    background-size: 10%;
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Itim', Arial, Helvetica, sans-serif;
+    border: none;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 50px;
+    margin: 20px;
+}
+
+.guessNumber:hover {
+    scale: 1.1;
+    background: #777777;
+}
+
+.container .message {
+    text-align: center;
+    font-size: 20px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.container p {
+    margin: 0;
+}
+
+.container .message p:first-child {
+    font-weight: bold;
+}
